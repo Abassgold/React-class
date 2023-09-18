@@ -1,0 +1,13 @@
+.parentHeader{
+    padding: 20px 5%;
+    background-color: #f7f6f4
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+.nigeriaFlag{
+    width: 30px;
+}

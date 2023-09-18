@@ -1,0 +1,39 @@
+.body {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+cardhheight {
+    height: 30rem;
+    background-color: red;
+}
+
+.body1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.body1 h1 {
+    font-family: "dm serif display", serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.body h4 {
+    font-family: "SF Pro", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #d77f81;     
+}
+.bac1{
+    height: 50%;
+    background-image: url(/src/Images/A2\ Posters.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    transition: background-size 1s;
+}
+.bac1:hover{
+    background-size: 115% 115%;
+}

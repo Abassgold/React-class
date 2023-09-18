@@ -1,0 +1,25 @@
+.footer{
+    background-color:#384a62 ;
+    padding: 5rem 0;
+    color: whitesmoke;
+}
+.footer div > a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.last{
+    text-align: center;
+    background: #cbcac8;
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #384a62;
+}
+.anchor{
+    margin-right: 5px;
+    color: #cbcac8;
+    font-size: 25px;
+    font-weight: 100;
+}
