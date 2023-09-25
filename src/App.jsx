@@ -11,6 +11,7 @@ import Param from './Components/Param'
 import Feed from './Components/Feed'
 import Library from './Components/Library'
 import Formik from './Components/Formik'
+import Counting from './Components/Counting'
 
 const App = () => {
   const [allTodo, setallTodo] = useState([])
@@ -29,10 +30,11 @@ const App = () => {
         <Route path='/home' element={<Navigate to='/'/>}/>
         <Route path='/Body' element={<Nig />} />
         <Route path='/Footer' element={<Footer />} />
-        <Route path='/feed*' element={<Feed/>}/>
+        <Route path='/feed/*' element={<Feed/>}/>
         <Route path="/feed/library" element={<Library/>}/>
         <Route path='/param/:id' element={<Param/>}/>
         <Route path='/formik' element={<Formik/>}/>
+        <Route path='/counter' element={<Counting/>}/>
         <Route path='*' element={<Notfound/>}/>
       </Routes>
     </div>
